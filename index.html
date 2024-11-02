@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos Rosaluna Makeup</title>
+    <!-- Importa el componente model-viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <style>
+        .product-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Productos Rosaluna Makeup</h1>
+    <div class="product-container">
+        <div class="product-card">
+            <h2>Producto Almohadilla</h2>
+            <model-viewer
+                alt="Producto Almohadilla"
+                src="./Recursos/Almohadilla.glb" 
+                ar 
+                environment-image="./Recursos/PAlmohadilla.hdr"
+                poster="./Recursos/PortadaAlmohadilla.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $15.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Paleta</h2>
+            <model-viewer
+                alt="Producto Paleta"
+                src="./Recursos/Base con espejo rectangular.glb" 
+                ar 
+                environment-image="./Recursos/PBase con espejo rectangular.hdr"
+                poster="./Recursos/portadaBase con espejo rectangular.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $35.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Bloom Glow</h2>
+            <model-viewer
+                alt="Producto Bloom Glow"
+                src="./Recursos/Base con espejo.glb" 
+                ar 
+                environment-image="./Recursos/PBase con espejo.hdr"
+                poster="./Recursos/portadaBase con espejo.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $30.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Paleta de Sombras</h2>
+            <model-viewer
+                alt="Producto Paleta de Sombras"
+                src="./Recursos/Base Horizontal con espejo.glb" 
+                ar 
+                environment-image="./Recursos/PBase Horizontal con espejo.hdr"
+                poster="./Recursos/portadaBase Horizontal con espejo.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $50.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Translucent</h2>
+            <model-viewer
+                alt="Producto Translucent"
+                src="./Recursos/Base Polvo Blanco.glb" 
+                ar 
+                environment-image="./Recursos/PBase Polvo Blanco.hdr"
+                poster="./Recursos/portadaBase Polvo Blanco.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $39.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Ganchito</h2>
+            <model-viewer
+                alt="Ganchito con Corazón"
+                src="./Recursos/Gancho pequeño Corazon.glb" 
+                ar 
+                environment-image="./Recursos/PGancho pequeño Corazon.hdr"
+                poster="./Recursos/portadaGancho pequeño Corazon.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $6.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Body Glas</h2>
+            <model-viewer
+                alt="Producto Body Glas"
+                src="./Recursos/Gotero.glb" 
+                ar 
+                environment-image="./Recursos/PGotero.hdr"
+                poster="./Recursos/portadaGotero.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $16.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Labial Terciopelo</h2>
+            <model-viewer
+                alt="Producto Labial tercio"
+                src="./Recursos/Labial terciopelo.glb" 
+                ar 
+                environment-image="./Recursos/PLabial terciopelo.hdr"
+                poster="./Recursos/portadaLabial terciopelo.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $15.000</p>
+        </div>
+
+        <div class="product-card">
+            <h2>Producto Labial Baby</h2>
+            <model-viewer
+                alt="Producto Labial Baby"
+                src="./Recursos/Labial Baby.glb" 
+                ar 
+                environment-image="./Recursos/PLabial Baby.hdr"
+                poster="./Recursos/portadaLabial Baby.webp" 
+                shadow-intensity="1" 
+                camera-controls
+                touch-action="pan-y">
+            </model-viewer>
+            <p>Precio: $15.000</p>
+        </div>
+
+    </div>
+</body>
+</html>
